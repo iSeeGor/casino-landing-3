@@ -1,0 +1,93 @@
+.site {
+
+	overflow: hidden;
+}
+
+.site-content {
+
+	&--reverse {
+
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
+.overflow {
+
+	overflow: hidden;
+}
+
+.hidden {
+
+	display: none;
+}
+
+.d-flex {
+
+	display: flex;
+}
+
+.flex-column-reverse {
+
+	flex-direction: column-reverse !important;
+}
+
+.vawe-deco {
+
+	position: relative;
+	z-index: 10;
+
+	&::before,
+	&::after {
+
+		content: '';
+		position: absolute;
+		top: -6px;
+		left: 0;
+		height: 7px;
+		width: 100%;
+		background-image: var(--bg-image, url('../img/vawe-menu.png'));
+		background-repeat: repeat-x;
+		background-position: center;
+		background-size: contain;
+		z-index: 1;
+	}
+
+	&::after {
+
+		top: auto;
+		bottom: -6px;
+		transform: scaleY(-1);
+	}
+
+	&--inset {
+
+		&::before {
+
+			top: 0;
+			transform: scaleY(-1);
+		}
+
+		&::after {
+
+			top: auto;
+			bottom: 0px;
+			transform: scaleY(1);
+		}
+	}
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal !important;
+}

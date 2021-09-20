@@ -1,0 +1,48 @@
+// Fonts 
+/////////////////////////////////////////
+
+// font-family
+$fontPrimary	: 'Rubik', sans-serif;
+$fontSecondary  : 'Franklin Gothic', sans-serif;
+$fontHeadings   : 'Rubik', sans-serif;
+
+// fotn-weight
+$thin      : 100;
+$light     : 300;
+$regular   : 400;
+$medium    : 500;
+$semiBold  : 600;
+$bold      : 700;
+$extraBold : 800;
+$black     : 900;
+
+
+// Colors
+/////////////////////////////////////////
+
+$colorBlack : #000000;
+$colorWhite : #ffffff;
+$colorBody : #4E4D5E;
+$colorBodyBg : white;
+$colorLink : #BA0024;
+$colorYellow : #F8F2D4;
+
+// 
+
+$transition : 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+:root {
+
+	--section-spacing: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+

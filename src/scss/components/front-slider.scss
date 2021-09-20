@@ -1,0 +1,41 @@
+.front-slider {
+
+	// margin-bottom: 40px;
+	// min-height: 400px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	background-color: $colorBodyBg;
+
+	@media (max-width: 767px){
+		
+		// min-height: 200px;
+	}
+
+	&__item {
+
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		transition: box-shadow $transition;
+		border-radius: 6px;
+		overflow: hidden;
+		transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+		&:hover {
+
+			// opacity: 0.9;
+			transform: scale(1.03);
+			// box-shadow: 0 0 10px 3px rgba(142, 94, 246, 0.7);
+		}
+
+		img {
+			
+			// max-width: inherit;
+			width: 100%;
+			display: block;
+			// height: 100%;
+			// object-fit: cover;
+		}
+	}
+}

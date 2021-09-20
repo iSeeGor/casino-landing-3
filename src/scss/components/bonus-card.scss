@@ -1,0 +1,88 @@
+.bonus-grid {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 32px;
+	// padding: 0 34px;
+}
+
+.bonus-card {
+	--bg-image: url('../img/vawe-white.png');
+
+
+	position: relative;
+	// overflow: hidden;
+	padding-top: 99%;
+	
+	&__image {
+
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+
+		img {
+
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.button-primary {
+
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%, 40%);
+		z-index: 2;
+		width: 75%;
+	}
+}
+
+@media (max-width: 1199.98px){
+	
+}
+
+@media (max-width: 991.98px){
+
+	.bonus-grid {
+		gap: 30px;
+		padding: 0;
+	}
+}
+
+@media (max-width: 767.98px){
+
+	
+	.bonus-grid {
+		grid-template-columns: 1fr;
+		padding: 0 24px;
+	}
+}
+
+@media (max-width: 575.98px){
+
+	.bonus-grid {
+		padding: 0;
+		gap: 24px;
+	}
+	
+}
+
+@media (max-width: 480.98px){
+
+	.bonus-grid {
+		gap: 20px;
+	}
+	
+}
+
+@media (max-width: 374px){
+	
+}
+
+@media (max-width: 350px){
+	
+}

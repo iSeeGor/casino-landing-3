@@ -1,0 +1,129 @@
+.section {
+
+	margin: 0 0 var(--section-spacing);
+	
+	&__header {
+
+		margin-bottom: 40px;
+	}
+
+	&__title {
+
+		text-align: center;
+		font-size: 50px;
+		font-family: $fontPrimary;
+		font-weight: $regular;
+		line-height: 1.2;
+		// text-transform: uppercase;
+		margin: 0;
+		text-shadow: 0px 0px 4.50615px rgba(255, 255, 255, 0.75);
+	}
+
+	&--bonus {
+
+		margin-bottom: calc(var(--section-spacing) + 40px)
+	}
+
+	&--typography {
+
+		
+
+		.container {
+
+			// border-top: 1px solid #454798;
+			// padding-top: 20px;
+		}
+		
+	}
+
+	&--deco {
+
+		@extend .vawe-deco;
+		padding: 40px 0 40px;
+		background: $colorYellow;
+	}
+}
+
+@media (max-width: 1199.98px){
+
+	.section {
+
+		&__title {
+
+			font-size: 32px;
+		}
+	}
+}
+
+@media (max-width: 991.98px){
+	
+	.section {
+
+		&__title {
+
+			font-size: 28px;
+		}
+	}
+}
+
+@media (max-width: 767.98px){
+	.section {
+
+		margin-bottom: 30px;
+
+		&__header {
+
+			margin-bottom: 20px;
+		}
+
+		&__title {
+
+			font-size: 24px;
+		}
+	}
+}
+
+@media (max-width: 575.98px){
+	
+	.section {
+
+		&__title {
+
+			font-size: 22px;
+		}
+	}
+}
+
+@media (max-width: 480.98px){
+
+	.section {
+
+		&__title {
+
+			font-size: 20px;
+		}
+	}
+	
+}
+
+@media (max-width: 374px){
+	
+	.section {
+
+		&__title {
+
+			font-size: 18px;
+		}
+	}
+}
+
+@media (max-width: 350px){
+	
+	.section {
+
+		&__title {
+
+			font-size: 16px;
+		}
+	}
+}

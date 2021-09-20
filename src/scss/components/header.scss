@@ -1,0 +1,113 @@
+.site-header {
+
+	// margin-bottom: 10px;
+}
+
+.header {
+
+	&__top {
+
+		padding: 12px 0;
+		background: white;
+		color: $colorBlack;
+		box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.399312);
+	}
+
+	&__bottom {
+		padding: 12px 0;
+		background: #BA0024;
+		box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.399312);
+	}
+
+	&__reg-text {
+
+		font-size: 19px;
+		line-height: 1.3;
+	}
+
+	&__auth {
+
+		display: grid;
+		grid-auto-flow: column;
+		justify-content: center;
+		align-items: center;
+		gap: 18px;
+	}
+
+	&__logo {
+
+		margin: 0 auto;
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 1199.98px){
+	
+	.header {
+
+		&__auth {
+
+			gap: 18px;
+		}
+	}
+}
+
+@media (max-width: 991.98px){
+	
+	.header {
+
+		padding: 12px 0;
+
+		&__auth {
+
+			gap: 16px;
+		}
+	}
+}
+
+@media (max-width: 767.98px){
+	
+}
+
+@media (max-width: 575.98px){
+	
+	.header {
+
+		padding: 8px 0;
+
+		&__auth {
+
+			gap: 14px;
+		}
+	}
+}
+
+@media (max-width: 480.98px){
+	
+	.header {
+
+
+		&__auth {
+
+			gap: 0px;
+		}
+
+		&__singin {
+
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 374px){
+	
+	.header {
+
+
+		&__auth {
+
+			gap: 10px;
+		}
+	}
+}
