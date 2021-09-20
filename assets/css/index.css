@@ -874,6 +874,7 @@ table.table--yellow td:last-child {
   z-index: 1;
   overflow: hidden;
   background-color: white;
+  background: #4E4D5E;
 }
 .front-slider__item {
   display: -webkit-box;
@@ -888,7 +889,6 @@ table.table--yellow td:last-child {
   -o-transition: box-shadow 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: box-shadow 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: box-shadow 0.4s cubic-bezier(0.075, 0.82, 0.165, 1), -webkit-box-shadow 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
-  border-radius: 6px;
   overflow: hidden;
   -webkit-transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
   -o-transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);

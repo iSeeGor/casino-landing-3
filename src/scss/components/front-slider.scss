@@ -6,6 +6,7 @@
 	z-index: 1;
 	overflow: hidden;
 	background-color: $colorBodyBg;
+	background: $colorBody;
 
 	@media (max-width: 767px){
 		
@@ -18,7 +19,7 @@
 		justify-content: center;
 		width: 100%;
 		transition: box-shadow $transition;
-		border-radius: 6px;
+		// border-radius: 6px;
 		overflow: hidden;
 		transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
 
