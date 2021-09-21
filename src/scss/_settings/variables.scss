@@ -33,11 +33,11 @@ $transition : 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 
 :root {
 
-	--section-spacing: 50px;
+	--section-spacing: 40px;
 
 	@media (max-width: 1199.98px){
 
-		--section-spacing: 45px;
+		--section-spacing: 40px;
 	}
 
 	@media (max-width: 991.98px){

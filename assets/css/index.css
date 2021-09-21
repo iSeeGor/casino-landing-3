@@ -1,11 +1,11 @@
 /* settings
 ===================================================*/
 :root {
-  --section-spacing: 50px;
+  --section-spacing: 40px;
 }
 @media (max-width: 1199.98px) {
   :root {
-    --section-spacing: 45px;
+    --section-spacing: 40px;
   }
 }
 @media (max-width: 991.98px) {
@@ -728,14 +728,14 @@ table.table--yellow tr:nth-child(even) td:last-child {
   }
 }
 .header__top {
-  padding: 12px 0;
+  padding: 10px 0;
   background: white;
   color: #000000;
   -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.399312);
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.399312);
 }
 .header__bottom {
-  padding: 12px 0;
+  padding: 10px 0;
   background: #BA0024;
   -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.399312);
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.399312);
@@ -807,7 +807,7 @@ table.table--yellow tr:nth-child(even) td:last-child {
 }
 .menu-section {
   background: #F8F2D4;
-  padding: 16px 0;
+  padding: 2px 0;
   margin-bottom: var(--section-spacing);
 }
 
@@ -841,7 +841,7 @@ table.table--yellow tr:nth-child(even) td:last-child {
   display: block;
   color: #4E4D5E;
   font-family: "Rubik", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1;
   font-weight: 400;
   text-transform: uppercase;
@@ -856,20 +856,12 @@ table.table--yellow tr:nth-child(even) td:last-child {
 }
 
 @media (max-width: 1199.98px) {
-  .menu-section {
-    padding: 14px 0;
-  }
-
   .main-menu__link {
     font-size: 22px;
     padding: 12px 22px;
   }
 }
 @media (max-width: 991.98px) {
-  .menu-section {
-    padding: 12px 0;
-  }
-
   .main-menu__link {
     font-size: 18px;
     padding: 10px 14px;
@@ -930,6 +922,7 @@ table.table--yellow tr:nth-child(even) td:last-child {
   -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
+  height: 460px;
   -webkit-transition: -webkit-box-shadow 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: -webkit-box-shadow 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
   -o-transition: box-shadow 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -945,21 +938,28 @@ table.table--yellow tr:nth-child(even) td:last-child {
   -ms-transform: scale(1.03);
   transform: scale(1.03);
 }
-.front-slider__item img,
-.front-slider__item picture {
+.front-slider__item img {
   width: 100%;
+  height: 100%;
   display: block;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 767.98px) {
+  .front-slider__item {
+    height: auto;
+  }
 }
 
 .section {
   margin: 0 0 var(--section-spacing);
 }
 .section__header {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .section__title {
   text-align: center;
-  font-size: 50px;
+  font-size: 44px;
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   line-height: 1.2;
@@ -976,10 +976,10 @@ table.table--yellow tr:nth-child(even) td:last-child {
 
 @media (max-width: 1199.98px) {
   .section__header {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
   }
   .section__title {
-    font-size: 46px;
+    font-size: 42px;
   }
 }
 @media (max-width: 991.98px) {
@@ -1194,7 +1194,7 @@ table.table--yellow tr:nth-child(even) td:last-child {
   font-family: "Franklin Gothic", sans-serif;
   font-size: 20px;
   line-height: 1;
-  height: 50px;
+  height: 46px;
   background: #4661B8;
   border-radius: 8px;
   text-transform: uppercase;
