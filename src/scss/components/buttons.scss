@@ -58,7 +58,6 @@
 	&--transparent {
 
 		background: none !important;
-		// text-decoration: underline;
 
 		&:hover {
 
@@ -121,14 +120,8 @@
 	.button-primary {
 
 		font-size: 18px;
-		padding: 11px 34px;
-
-		&--large {
-
-			min-width: 320px;
-			height: 66px;
-			font-size: 32px;
-		}
+		height: 46px;
+		padding: 0 42px;
 	}
 }
 
@@ -137,14 +130,9 @@
 	.button-primary {
 
 		font-size: 16px;
-		padding: 10px 30px;
-
-		&--large {
-
-			min-width: 220px;
-			height: 54px;
-			font-size: 24px;
-		}
+		height: 42px;
+		padding: 0 36px;
+		border-radius: 6px;
 	}
 }
 
@@ -153,14 +141,9 @@
 	.button-primary {
 
 		font-size: 14px;
-		padding: 8px 24px;
-
-		&--large {
-
-			min-width: 260px;
-			height: 56px;
-			font-size: 24px;
-		}
+		height: 38px;
+		padding: 0 32px;
+		border-radius: 4px;
 	}
 }
 
@@ -169,15 +152,8 @@
 	.button-primary {
 
 		font-size: 12px;
-		padding: 8px 18px;
-
-		&--large {
-
-			min-width: 260px;
-			height: 56px;
-			font-size: 24px;
-		}
-		
+		height: 34px;
+		padding: 0 30px;
 	}
 	
 }
@@ -186,12 +162,13 @@
 
 	.button-primary {
 
+		height: 30px;
+		padding: 0 26px;
 
 		&--large {
 
-			min-width: 240px;
-			height: 52px;
-			font-size: 20px;
+			font-size: 16px;
+			height: 44px;
 		}
 	}
 
@@ -216,11 +193,14 @@
 	
 	.button-primary {
 
+		font-size: 10px;
+		height: 28px;
+		padding: 0 24px;
+
 		&--large {
 
-			min-width: 220px;
-			height: 48px;
-			font-size: 18px;
+			font-size: 16px;
+			height: 42px;
 		}
 	}
 
@@ -245,12 +225,9 @@
 
 	.button-primary {
 
-		&--large {
-
-			min-width: 180px;
-			height: 44px;
-			font-size: 16px;
-		}
+		font-size: 10px;
+		height: 26px;
+		padding: 0 22px;
 	}
 
 	.button-play {

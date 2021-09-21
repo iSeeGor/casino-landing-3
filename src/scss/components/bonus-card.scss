@@ -42,14 +42,15 @@
 }
 
 @media (max-width: 1199.98px){
-	
+	.bonus-grid {
+		gap: 28px;
+	}
 }
 
 @media (max-width: 991.98px){
 
 	.bonus-grid {
-		gap: 30px;
-		padding: 0;
+		gap: 24px;
 	}
 }
 
@@ -57,29 +58,32 @@
 
 	
 	.bonus-grid {
-		grid-template-columns: 1fr;
-		padding: 0 24px;
+
+		grid-template-columns: 1fr 1fr;
+		gap: 40px 22px;
 	}
 }
 
 @media (max-width: 575.98px){
 
-	.bonus-grid {
-		padding: 0;
-		gap: 24px;
-	}
+	
 	
 }
 
 @media (max-width: 480.98px){
 
 	.bonus-grid {
-		gap: 20px;
+		grid-template-columns: 1fr;
+		gap: 40px 22px;
 	}
 	
 }
 
 @media (max-width: 374px){
+	
+	.bonus-grid {
+		gap: 30px 22px;
+	}
 	
 }
 

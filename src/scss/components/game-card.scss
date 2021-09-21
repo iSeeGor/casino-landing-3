@@ -94,29 +94,37 @@
 
 	.game-card {
 
-		border-radius: 20px;
-
-		&__button {
-
-			
-		}
+		border-radius: 13px;
+		box-shadow: 0 0 0 4px #F8F2D4;
 	}
 	
 }
 
 @media (max-width: 767.98px){
 	
+	.game-card {
+
+		border-radius: 12px;
+		box-shadow: 0 0 0 3px #F8F2D4;
+	}
+	
 }
 
 @media (max-width: 575.98px){
 	
+	.game-card {
+
+		border-radius: 10px;
+		box-shadow: 0 0 0 3px #F8F2D4;
+	}
 }
 
 @media (max-width: 480.98px){
 
 	.game-card {
 
-		border-radius: 15px;
+		border-radius: 8px;
+		box-shadow: 0 0 0 2px #F8F2D4;
 	}
 	
 }
@@ -125,7 +133,7 @@
 
 	.game-card {
 
-		border-radius: 12px;
+
 	}
 	
 }

@@ -48,9 +48,14 @@
 
 	.section {
 
+		&__header {
+
+			margin-bottom: 35px;
+		}
+
 		&__title {
 
-			font-size: 32px;
+			font-size: 46px;
 		}
 	}
 }
@@ -59,9 +64,14 @@
 	
 	.section {
 
+		&__header {
+
+			margin-bottom: 30px;
+		}
+
 		&__title {
 
-			font-size: 28px;
+			font-size: 40px;
 		}
 	}
 }
@@ -69,11 +79,9 @@
 @media (max-width: 767.98px){
 	.section {
 
-		margin-bottom: 30px;
-
 		&__header {
 
-			margin-bottom: 20px;
+			margin-bottom: 25px;
 		}
 
 		&__title {
@@ -87,9 +95,14 @@
 	
 	.section {
 
+		&__header {
+
+			margin-bottom: 20px;
+		}
+
 		&__title {
 
-			font-size: 22px;
+			font-size: 26px;
 		}
 	}
 }
@@ -110,6 +123,11 @@
 	
 	.section {
 
+		&__header {
+
+			margin-bottom: 15px;
+		}
+
 		&__title {
 
 			font-size: 18px;
@@ -123,7 +141,6 @@
 
 		&__title {
 
-			font-size: 16px;
 		}
 	}
 }

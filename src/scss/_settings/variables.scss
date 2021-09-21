@@ -34,6 +34,39 @@ $transition : 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 :root {
 
 	--section-spacing: 50px;
+
+	@media (max-width: 1199.98px){
+
+		--section-spacing: 45px;
+	}
+
+	@media (max-width: 991.98px){
+		
+		--section-spacing: 40px;
+	}
+
+	@media (max-width: 767.98px){
+		
+		--section-spacing: 35px;
+	}
+
+	@media (max-width: 575.98px){
+		
+		--section-spacing: 30px;
+	}
+
+	@media (max-width: 480.98px){
+		
+		--section-spacing: 25px;
+	}
+
+	@media (max-width: 374px){
+		
+	}
+
+	@media (max-width: 350px){
+		
+	}
 }
 
 

@@ -55,6 +55,11 @@
 @media (max-width: 991.98px){
 	
 	.footer {
+		
+		&__top {
+
+			padding: 20px 0 35px;
+		}
 
 		&__providers {
 
@@ -69,7 +74,7 @@
 
 		&__top {
 
-			padding: 10px 0;
+			padding: 15px 0 25px;
 		}
 
 		&__menu {

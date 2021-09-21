@@ -136,6 +136,14 @@ table.table {
 			text-align: right;
 			color: #FFE41E;
 		}
+
+		tr:nth-child(even) {
+
+			td:last-child {
+
+				color: #d0b700;
+			}
+		}
 	}
 }
 
