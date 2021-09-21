@@ -30,10 +30,12 @@
 			// box-shadow: 0 0 10px 3px rgba(142, 94, 246, 0.7);
 		}
 
-		img {
+		img,
+		picture {
 			
 			// max-width: inherit;
 			width: 100%;
+			max-width: 1920px;
 			display: block;
 			// height: 100%;
 			// object-fit: cover;
